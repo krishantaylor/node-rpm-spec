@@ -1,4 +1,4 @@
-%define ver  0.8.20
+%define ver  0.8.21
 %define rel  1
 %define jobs 2
 
@@ -51,6 +51,9 @@ rm -rf %{buildroot}
 /usr/lib/dtrace/node.d
 
 %changelog
+* Wed Feb 27 2013 Krishan Taylor <krishan.taylor@gmail.com> 0.8.21-1
+- RPM using upstream v0.8.21
+
 * Fri Feb 15 2013 Josh Strater <jstrater@gmail.com> 0.8.20-1
 - RPM using upstream v0.8.20
 
