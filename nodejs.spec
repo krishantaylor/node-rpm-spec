@@ -1,4 +1,4 @@
-%define ver  0.10.0
+%define ver  0.10.2
 %define rel  1
 %define jobs 2
 
@@ -48,6 +48,9 @@ rm -rf %{buildroot}
 /usr/lib/dtrace/node.d
 
 %changelog
+* Wed Apr 3 2013 Krishan Taylor <krishan.taylor@gmail.com> 0.10.2-1
+- RPM using upstream v0.10.2
+
 * Tue Mar 12 2013 Krishan Taylor <krishan.taylor@gmail.com> 0.10.0-1
 - RPM using upstream v0.10.0
 
